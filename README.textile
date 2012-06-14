@@ -1,0 +1,28 @@
+h1. JRuby+Jetty+JAR Hello World
+
+h2. Prerequisites
+
+h3. OpenJDK 7u6
+
+# "Downloaded the package for OSX":http://code.google.com/p/openjdk-osx-build/downloads/detail?name=OpenJDK-OSX-1.7-universal-u-jdk-jdk7u6-b13-20120613.dmg
+# Mount it
+# Drag the @1.7.0u6.jdk@ you should find to @/Library/Java/JavaVirtualMachines@
+# Select the new version as the default in @Java Preferences@ (look for it with Spotlight)
+
+h2. Usage
+
+From the root of the project run:
+
+bc. mvn clean install
+
+Then you can just start it up!
+
+bc. java -jar target/jetty-hello-world-1.0.0-SNAPSHOT.jar
+
+h2. Benchmarking
+
+To benchmark I run this:
+
+bc. httperf --num-conns=50 --num-calls=2000 --port 9292
+
+After warm-up the second time I get over _7,000_ requests per second.
