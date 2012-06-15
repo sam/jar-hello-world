@@ -6,6 +6,8 @@ This is an example "Hello World" web application as a demonstration for bundling
 
 This way if you have a system that's already running a particular JRuby release, you can "vendor all the things" and deploy an application like this without worrying about breaking anything on your server since you don't have to muck with any existing Ruby environment, Gems, Bundler, et all.
 
+"This article":http://www.ning.com/code/2011/09/jruby-sinatra-web-service-as-an-executable-jar helped me figure out most of the tricky bits in writing this example. So many thanks to "@tomdz":https://github.com/tomdz.
+
 h2. Prerequisites
 
 h3. OpenJDK 7u6
