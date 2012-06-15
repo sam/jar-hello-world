@@ -1,5 +1,11 @@
 h1. JRuby+Jetty+JAR Hello World
 
+h2. Overview
+
+This is an example "Hello World" web application as a demonstration for bundling a JRuby application with JAR dependencies up into a single unified JAR you can run with the only deployment requirement being a working Java on your target system.
+
+This way if you have a system that's already running a particular JRuby release, you can "vendor all the things" and deploy an application like this without worrying about breaking anything on your server since you don't have to muck with any existing Ruby environment, Gems, Bundler, et all.
+
 h2. Prerequisites
 
 h3. OpenJDK 7u6
