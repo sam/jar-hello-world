@@ -12,7 +12,7 @@ h2. Prerequisites
 
 h3. OpenJDK 7u6
 
-# "Downloaded the package for OSX":http://code.google.com/p/openjdk-osx-build/downloads/detail?name=OpenJDK-OSX-1.7-universal-u-jdk-jdk7u6-b13-20120613.dmg
+# "Downloaded the package for OSX":http://code.google.com/p/openjdk-osx-build/downloads/detail?name=OpenJDK-OSX-1.7-universal-u-jdk-jdk7u6-b20-20120725.dmg
 # Mount it
 # Drag the @1.7.0u6.jdk@ you should find to @/Library/Java/JavaVirtualMachines@
 # Select the new version as the default in @Java Preferences@ (look for it with Spotlight)
